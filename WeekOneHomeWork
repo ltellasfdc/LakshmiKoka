@@ -1,0 +1,36 @@
+Pseudocode for Making a cup of tea:
+1. Get ready with things needed for making tea: Teapot, Water, Tea powder, Milk and Sugar 
+2. Fill the teapot with water 
+3. Put the teapot on the stove
+4. Turn on the stove 
+5. wait until the water warms up, then add tea powder 
+6. Wait until the tea powder is infused into the water. Usually, it takes around 10 mins
+7. Now add milk and sugar
+8. wait until it boils 
+9. Pour the tea into a cup
+10. Enjoy the tea!
+
+ public static void primitivesExercise() {
+        //You do this part!
+
+        //1.  Declare three primitives variables, an Integer, a String and a Decimal
+        Integer n;
+        String x;
+        Decimal d; 
+
+        //2.  Assign values to your three new variables
+        n = 1;
+        x = 'sample';
+        d = 1.2;
+        
+        //3.  Print out your variables to the debug log
+        System.debug('value of n is ' + n);
+     	System.debug('value of x is ' + x);
+     	System.debug('value of d is ' + d);
+     
+        //4.  Declare an integer variable and assign a value in the same line
+        Integer y = 10;
+
+        //5.  Print out your integer to the debug log
+		 System.debug('value of y is ' + y);
+    }
